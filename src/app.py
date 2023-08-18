@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Cargar el archivo CSV
-csv_path = r"C:\Users\Jaime\Desktop\4GEEKS\PROYECTOS\026-PROYECTO1-ml-webapp-using-flask-tutorial-main\models\avalanche_fatalities_22_23.csv"
+csv_path = "../models/avalanche_fatalities_22_23.csv"
 data = pd.read_csv(csv_path)
 
 @app.route('/')
