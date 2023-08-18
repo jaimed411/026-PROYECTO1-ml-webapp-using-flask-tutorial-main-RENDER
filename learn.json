@@ -1,0 +1,13 @@
+{
+	"slug" : "ml-webapp-using-flask-tutorial",
+	"title" : "ML web app using Flask tutorial",
+	"preview": "https://github.com/4GeeksAcademy/ml-webapp-using-flask-tutorial/blob/main/preview.png?raw=true",
+	"status": "published",
+	"translations": ["us"],
+	"technologies": ["data-science", "machine-learning"],
+	"difficulty": "beginner",
+	"syntax": "python",
+	"duration" : 1,
+    "projectType": "project",
+	"description" : "Use Flask to create a machine learning web application."
+}

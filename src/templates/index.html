@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Europe Avalanches 2022-2023</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Europe Avalanches 2022-2023</h1>
+        <ul class="country-list">
+            {% for country in countries %}
+                <li><a href="{{ url_for('deaths', country=country) }}">{{ country }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

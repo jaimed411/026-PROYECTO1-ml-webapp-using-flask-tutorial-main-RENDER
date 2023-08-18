@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #262626, #000000);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 35%; /* Ancho de la caja principal */
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2da6df;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Estilos para la lista de países */
+.country-list {
+    list-style: none;
+    padding: 0;
+}
+
+.country-list li {
+    margin-bottom: 10px;
+}
+
+.country-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.country-list a:hover {
+    color: #262626;
+}
+
+/* Estilos para la tabla de muertes */
+.deaths-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.deaths-table th, .deaths-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.deaths-table th {
+    background-color: #262626;
+    font-weight: bold;
+}
+
+/* Agregar estilo para el enlace de navegación */
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #cccccc;
+}
+
+
+
+/* Resto de los estilos ... */
+
+.back-button {
+    display: block;
+    margin-top: 10px;
+    background-color: #2da6df; /* Cambia el color del botón */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #262626; /* Cambia el color al pasar el mouse */
+}
